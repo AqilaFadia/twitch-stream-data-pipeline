@@ -98,12 +98,6 @@ Example:
 SPREADSHEET_NAME=Twitch Stream Data
 WORKSHEET_NAME=Sheet1
 ```
-
-📌 Notes:
-
-SPREADSHEET_NAME = your Google Spreadsheet name
-WORKSHEET_NAME = the tab name inside spreadsheet
-
 ### To scrape Twitch data one time:
 ```bash
 python main.py
