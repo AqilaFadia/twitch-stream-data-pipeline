@@ -103,7 +103,6 @@ WORKSHEET_NAME=Sheet1
 
 SPREADSHEET_NAME = your Google Spreadsheet name
 WORKSHEET_NAME = the tab name inside spreadsheet
-GOOGLE_CREDENTIALS_FILE = JSON credential filename
 
 ### To scrape Twitch data one time:
 ```bash
