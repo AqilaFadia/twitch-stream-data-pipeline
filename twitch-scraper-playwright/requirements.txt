@@ -1,0 +1,10 @@
+playwright
+pandas
+requests
+gspread
+google-auth
+google-auth-oauthlib
+oauth2client
+numpy
+python-dotenv
+schedule
