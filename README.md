@@ -22,7 +22,7 @@ This project is designed to demonstrate an end-to-end automation workflow:
 ---
 
 ## 📊 Dashboard Preview (Looker Studio Screenshot)
-![Looker Studio Dashboard Preview](./assets/twitch.png)
+![Looker Studio Dashboard Preview]([./assets/twitch.png](https://github.com/AqilaFadia/twitch-stream-data-pipeline/tree/main/twitch-scraper-playwright/assets))
 ---
 
 ## 🛠 Tech Stack
