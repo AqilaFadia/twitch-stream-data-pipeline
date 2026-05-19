@@ -38,27 +38,9 @@ This project is designed to demonstrate an end-to-end automation workflow:
 - dotenv (.env configuration)
 - schedule (automation scheduler)
 
----
-
-## 📂 Project Structure
-```bash
-twitch-scraper-playwright/
-│── main.py
-│── scheduler.py
-│── requirements.txt
-│── .env.example
-│── credentials.json   # (not uploaded to GitHub)
-│
-├── utils/
-│   ├── save_to_sheet.py
-│   ├── scraper.py
-│   └── helper.py
-│
-└── assets/
-    └── looker_dashboard.png
-```
 ## ⚙️ Installation
 #### 1. Clone Repository
+
 ```bash
 git clone https://github.com/AqilaFadia/twitch-scraper-playwright.git
 cd twitch-scraper-playwright
@@ -74,18 +56,18 @@ playwright install
 ## 🔑 Google Sheets API Setup (Credentials JSON)
 
 This project uses Google Sheets API via Service Account.
-Step 1: Create Google Cloud Project
+#### Step 1: Create Google Cloud Project
 Go to Google Cloud Console
 Create a new project
-Step 2: Enable Google Sheets API
+#### Step 2: Enable Google Sheets API
 Go to APIs & Services → Library
 Search for Google Sheets API
 Click Enable
-Step 3: Create Service Account
+#### Step 3: Create Service Account
 Go to APIs & Services → Credentials
 Click Create Credentials → Service Account
 Fill service account name
-Step 4: Generate JSON Key File
+#### Step 4: Generate JSON Key File
 Open your service account
 Go to Keys
 Click Add Key → Create new key
@@ -100,7 +82,7 @@ credentials.json
 
 Place it inside the project folder.
 
-Step 5: Share Spreadsheet Access
+#### Step 5: Share Spreadsheet Access
 Open your Google Spreadsheet
 Click Share
 
@@ -127,8 +109,6 @@ GOOGLE_CREDENTIALS_FILE=credentials.json
 SPREADSHEET_NAME = your Google Spreadsheet name
 WORKSHEET_NAME = the tab name inside spreadsheet
 GOOGLE_CREDENTIALS_FILE = JSON credential filename
-▶️ Usage
-Run Scraper Once
 
 ### To scrape Twitch data one time:
 ```bash
