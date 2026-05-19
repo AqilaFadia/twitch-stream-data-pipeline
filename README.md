@@ -24,7 +24,7 @@ This project is designed to demonstrate an end-to-end automation workflow:
 ## 📊 Dashboard Preview (Looker Studio Screenshot)
 > Add your Looker Studio screenshot here:
 
-![Looker Studio Dashboard Preview](twitch-scraper-playwright/assets)
+![Looker Studio Dashboard Preview](./twitch-scraper-playwright/assets)
 
 *(You can upload the screenshot inside `assets/` folder.)*
 
