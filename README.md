@@ -101,7 +101,6 @@ Example:
 ```bash
 SPREADSHEET_NAME=Twitch Stream Data
 WORKSHEET_NAME=Sheet1
-GOOGLE_CREDENTIALS_FILE=credentials.json
 ```
 
 📌 Notes:
